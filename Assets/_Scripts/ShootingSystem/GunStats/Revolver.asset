@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85ec15ee3822d734a9f4e50ff9d8da15, type: 3}
+  m_Name: Revolver
+  m_EditorClassIdentifier: Assembly-CSharp::GunData
+  gunName: Revolver
+  damage: 2
+  magSize: 6
+  spareAmmo: 0
+  spareAmmoMax: 60
+  fireRate: 850
+  adsSpeed: 8
+  hipPosition: {x: 0.294, y: -0.217, z: 0.39}
+  aimPosition: {x: -0.001, y: -0.107, z: 0.39}
+  burstSize: -1
+  hipBloom: 4
+  yRecoil: 2
+  xRecoil: 2
+  zRecoil: 0.1
+  swayIntensity: 1
+  smoothing: 0.05
